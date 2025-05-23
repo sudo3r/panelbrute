@@ -86,7 +86,7 @@ async def main():
     parser.add_argument('-o', '--output', help="Output file for successful results")
     parser.add_argument('-c', '--concurrency', type=int, default=5, help="Number of concurrent requests")
     parser.add_argument('-T', '--timeout', type=int, default=10, help="Timeout in seconds")
-    parser.add_argument('-F', '--proxy-file', help="File containing list of proxies (http, socks4, socks5)")
+    parser.add_argument('-P', '--proxy-file', help="File containing list of proxies (http, socks4, socks5)")
 
     args = parser.parse_args()
 
